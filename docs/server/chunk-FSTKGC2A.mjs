@@ -1,0 +1,14 @@
+import './polyfills.server.mjs';
+import{B as g,a as l,b as m,c as t,d as n,e as i,f as e,g as p,h as s,o as d,q as c,r as h,s as f,v as u}from"./chunk-HFAO2TDL.mjs";var x=(()=>{let o=class o{constructor(){this.title="Problem 3"}};o.\u0275fac=function(r){return new(r||o)},o.\u0275cmp=l({type:o,selectors:[["app-root"]],standalone:!0,features:[s],decls:45,vars:1,consts:[["href","https://angular.io/guide/setup-local"],[2,"margin-left","20px","font-weight","bold"],["href","https://angular.io/tutorial/tour-of-heroes/toh-pt0"]],template:function(r,y){r&1&&(t(0,"h1"),e(1),n(),i(2,"h4"),t(3,"h3"),e(4,"Installation"),n(),i(5,"h4"),t(6,"p"),e(7,`
+To begin, I followed this tutorial to set up Angular so I could use it while in VScode:
+`),t(8,"a",0),e(9,"Click here"),n(),i(10,"br")(11,"br"),e(12,`
+1. I opened a terminal in VScode and ran the following commands:
+`),n(),t(13,"p",1),e(14,"Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned "),i(15,"br"),e(16,'npm install -g "@"angular/cli '),n(),t(17,"p"),e(18,`
+2. I entered the command into the terminal to start a new workspace:
+`),n(),t(19,"p",1),e(20,"ng new my-app"),n(),t(21,"p"),e(22,`
+3. I moved on to the next tutorial on how to edit the new web page I had created: `),t(23,"a",2),e(24,"Click here"),n(),i(25,"br")(26,"br"),e(27,`
+4. I opened the new workspace folder I had created in step 2 to start editing the HTML
+and CSS files.`),i(28,"br")(29,"br"),e(30,`
+5. To run the website locally and see the changes in real time, I ran the following command in the VSCode terminal:
+`),n(),t(31,"p",1),e(32,"ng serve --open"),n(),i(33,"h4"),t(34,"h3"),e(35,"Final Thoughts"),n(),i(36,"h4"),t(37,"p"),e(38," Choosing to use angular was a really easy transition because it required knowledge about HTML and CSS. Although it required Typescript, this was not too much of an impediment as I used the Angular website's tutorial which provided skeleton code to help me create a simple web page. I also like any changes I make updates live rather than having to load the page every time I save my file. "),i(39,"br")(40,"br"),e(41," For the most part, I did not experience any difficulties as the Angular website had very thorough tutorials. "),i(42,"br")(43,"br"),e(44,` I've heard of plenty people using Angular for web development but never got around to trying it. However, after this lab I can definitely see myself using it again in the near future.
+`),n()),r&2&&(m(1),p(y.title))},dependencies:[c],styles:["h1[_ngcontent-%COMP%]{color:#fff;font-family:Arial,Helvetica,sans-serif;background-color:#f25e5e;text-align:center;padding:10px;border:3px solid #000000}h3[_ngcontent-%COMP%]{color:#f25e5e}h4[_ngcontent-%COMP%]{border:3px solid #000000}p[_ngcontent-%COMP%]{font-family:Arial,Helvetica,sans-serif;padding:15px}"]});let a=o;return a})();var b=[];var v={providers:[g(b),f()]};var C={providers:[u()]},w=d(v,C);var I=()=>h(x,w),U=I;export{U as a};
